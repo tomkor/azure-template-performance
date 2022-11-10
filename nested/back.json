@@ -8,7 +8,7 @@
         "description":"Base template URL for nested template",
         "artifactsBaseUrl":""
       },
-      "defaultValue":"https://raw.githubusercontent.com/PrestaShop/azure-template-performance/master"
+      "defaultValue":"https://raw.githubusercontent.com/tomkor/azure-template-performance/master"
     },
     "adminUsername":{
       "type":"string",
