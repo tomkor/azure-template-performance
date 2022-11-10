@@ -58,7 +58,7 @@
     },
     "frVmSize":{
       "type":"string",
-      "defaultValue":"Standard_DS1",
+      "defaultValue":"Standard_B2s",
       "metadata":{
         "description":"Instance size for Web Front VMs"
       }
@@ -72,7 +72,7 @@
     },
     "bkVmSize":{
       "type":"string",
-      "defaultValue":"Standard_DS1",
+      "defaultValue":"Standard_B2s",
       "metadata":{
         "description":"Instance size for Web Front VMs Minimum Standard_A2"
       }
@@ -140,7 +140,7 @@
         "description":"Base template URL for nested template",
         "artifactsBaseUrl": ""
       },
-      "defaultValue": "https://raw.githubusercontent.com/PrestaShop/azure-template-performance/master"
+      "defaultValue": "https://raw.githubusercontent.com/tomkor/azure-template-performance/master"
     },
     "hcSubnetPrefix":{
       "type":"string",
