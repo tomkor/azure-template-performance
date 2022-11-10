@@ -35,7 +35,6 @@
 
 
 
-
 ### Microsoft Azure Marketplace Solution Templates - Validation Criteria for Virtual Machine based offers
 ### Check list fot the project
 
