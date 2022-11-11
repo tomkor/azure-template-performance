@@ -285,13 +285,13 @@
     "paramsDeploy":"[concat(parameters('hcUsername'),'\" \"',variables('paramsSubnets'),'\" \"',variables('paramsNbHosts'),'\" \"',variables('paramsNames'),'\" \"',variables('paramsExtra'),'\" \"',variables('paramsAdmin'))]",
     "apiVersion":{
       "resources":{
-        "deployments":"2021-01-01"
+        "deployments":"2022-09-01"
       },
-      "network":"2021-06-15",
-      "storage":"2021-06-15",
-      "compute":"2021-06-15",
-      "publicIPAddresses":"2021-09-01",
-      "deployment":"2021-02-01"
+      "network":"2022-09-01",
+      "storage":"2022-09-01",
+      "compute":"22022-09-01",
+      "publicIPAddresses":"2022-09-01",
+      "deployment":"2022-09-01"
     },
     "osProfile_hc_password": {
       "computerName": "[variables('hcVmName')]",
