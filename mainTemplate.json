@@ -33,7 +33,7 @@
       "metadata":{
         "description":"Username for the Ansible Control Virtual Machine and provisoning"
       },
-      "defaultValue":"pr35745h0p"
+      "defaultValue":"tomasz"
     },
     "authenticationType": {
       "type": "string",
@@ -285,13 +285,13 @@
     "paramsDeploy":"[concat(parameters('hcUsername'),'\" \"',variables('paramsSubnets'),'\" \"',variables('paramsNbHosts'),'\" \"',variables('paramsNames'),'\" \"',variables('paramsExtra'),'\" \"',variables('paramsAdmin'))]",
     "apiVersion":{
       "resources":{
-        "deployments":"2015-01-01"
+        "deployments":"2021-01-01"
       },
-      "network":"2015-06-15",
-      "storage":"2015-06-15",
-      "compute":"2015-06-15",
-      "publicIPAddresses":"2016-09-01",
-      "deployment":"2016-02-01"
+      "network":"2021-06-15",
+      "storage":"2021-06-15",
+      "compute":"2021-06-15",
+      "publicIPAddresses":"2021-09-01",
+      "deployment":"2021-02-01"
     },
     "osProfile_hc_password": {
       "computerName": "[variables('hcVmName')]",
