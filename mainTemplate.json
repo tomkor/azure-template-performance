@@ -259,7 +259,7 @@
     "frNetworkSecurityGroupName":"frSecurityGroup",
     "bkNetworkSecurityGroupName":"bkSecurityGroup",
     "sshKeyPath":"[concat('/home/',parameters('hcUsername'),'/.ssh/authorized_keys')]",
-    "scriptsBaseUrl":"https://raw.githubusercontent.com/PrestaShop/azure-template-performance/master/scripts/",
+    "scriptsBaseUrl":"https://raw.githubusercontent.com/tomkor/azure-template-performance/master/scripts/",
     "ansiblePlaybookLocation":"deploy-prestashop.yml",
     "ansibleRolesReqLocation":"install_roles.yml",
     "ansibleVarsLocation":"vars/main.yml",
